@@ -1,0 +1,139 @@
+/*
+    font-family: 'Montserrat', sans-serif;
+*/
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 0px) {
+    /*BODY*/
+    body {
+        color: #4E5150;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        padding: 2rem 1rem;
+    }
+
+    /*HEADER*/
+    #title {
+        margin-bottom: 1.32rem;
+    }
+
+    #title h1 {
+        font-size: 6.4vw;
+    }
+
+    /*CHECKOUT*/
+    #checkout {
+        background-color: #F2F2F2;
+        border-radius: 0.75rem;
+        margin-bottom: 2.5rem;
+        padding: 2rem;
+    }
+
+    .checkout-item {
+        display: flex;
+        margin-bottom: 2rem;
+    }
+
+    .item-image {
+        flex-shrink: 2;
+        margin-right: 1rem;
+        width: 40%;
+    }
+
+    .item-image img {
+        border-radius: 0.5rem;
+        width: 100%;
+    }
+
+    .item-desc {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 50%;
+    }
+
+    .item-desc h2 {
+        font-size: 3.2vw;
+        margin-bottom: 0.5rem;
+    }
+
+    .item-price {
+        align-items: center;
+        display: flex;
+        margin-bottom: 1rem;
+    }
+
+    .item-desc h3 {
+        color: #F2994A;
+        font-size: 3.73vw;
+        margin-right: 1rem;
+    }
+
+    .item-desc h4 {
+        font-size: 2.67vw;
+        text-decoration: line-through;
+    }
+
+    .item-quantity {
+        align-items: center;
+        border: 1px solid #828282;
+        border-radius: 0.5rem;
+        color: #000;
+        display: flex;
+        flex-shrink: 2;
+        justify-content: space-between;
+        margin-right: 2rem;
+        padding: 0.5rem 0.63rem;
+    }
+
+    .item-quantity button{
+        background-color: #E0E0E0;
+        border-radius: 0.5rem;
+        height: 20px;
+        width: 20px;
+    }
+
+    .amount {
+        border-top: 1px solid #BDBDBD;
+        display: flex;
+        justify-content: space-between;
+        padding: 0.75rem 0;
+    }
+
+    .amount h2 {
+        font-size: 3.73vw;
+    }
+
+    #shipping {
+        margin-top: 6rem;
+    }
+
+
+
+    /*FOOTER*/
+    footer {
+        color: #A9A9A9;
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+        padding: 1.5rem 0;
+        text-align: center;
+    }
+
+    footer a {
+        font-weight: 700;
+    }
+
+    footer a:link, footer a:visited {
+        color: #A9A9A9;
+    }
+}
