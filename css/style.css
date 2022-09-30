@@ -118,7 +118,274 @@ a:link, a:visited {
         margin-top: 6rem;
     }
 
+    /*CONTACT ADDRESS*/
+    #contact-address {
+        margin-bottom: 5.8rem;
+    }
 
+    #contact-address h2 {
+        color: #333333;
+        font-size: 3.73vw;
+        margin-bottom: 0.75rem;
+        margin-top: 3rem;
+    }
+
+    #contact-address .form-field {
+        margin-bottom: 1rem;
+    }
+
+    #contact-address .form-field label {
+        display: block;
+        font-size: 2.67vw;
+        margin-bottom: 0.3rem;
+    }
+
+    #contact-address .input-box {
+        align-items: center;
+        border: 1px solid #828282;
+        border-radius: 0.5rem;
+        display: flex;
+        font-size: 3.2vw;
+        padding: 0.3rem;
+    }
+
+    #contact-address .input-box select {
+        color: #828282;
+    }
+
+    #contact-address .input-box i {
+        margin-right: 0.5rem;
+    }
+
+    #contact-address .input-box input {
+        color: #333333;
+    }
+
+    #contact-address .input-box input::placeholder, select {
+        font-size: 3.2vw;
+    }
+
+    #country-postal {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #country-postal .form-field {
+        margin-right: 1.5rem;
+    }
+
+    #country-postal input {
+        width: 100%;
+    }
+
+    .save-info {
+        align-items: center;
+        display: flex;
+    }
+
+    .save-info span {
+        font-size: 2.67vw;
+        margin-left: 0.5rem;
+    }
+
+    #contact-address button {
+        background-color: #F2994A;
+        border-radius: 0.5rem;
+        color: #FFF;
+        float: right;
+        font-size: 5vw;
+        padding: 1rem 2rem;
+    }
+
+    /*FOOTER*/
+    footer {
+        color: #A9A9A9;
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+        padding: 1.5rem 0;
+        text-align: center;
+    }
+
+    footer a {
+        font-weight: 700;
+    }
+
+    footer a:link, footer a:visited {
+        color: #A9A9A9;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    /*CHECKOUT*/
+    #checkout {
+        border-radius: 1.5rem;
+    }
+
+    .item-image {
+        margin-right: 3rem;
+        width: 30%;
+    }
+
+    .item-image img {
+        border-radius: 1rem;
+        height: 100%;
+    }
+
+    .item-desc h2 {
+        margin-bottom: 1rem;
+    }
+
+    .item-desc h3 {
+        margin-right: 2rem;
+    }
+
+    .item-quantity {
+        border-radius: 0.75rem;
+        width: 40%;
+    }
+
+    .item-quantity button{
+        height: 25px;
+        width: 25px;
+    }
+
+    /*CONTACT ADDRESS*/
+    #contact-address {
+        margin-bottom: 10rem;
+    }
+
+    #contact-address h2 {
+        margin-bottom: 1.5rem;
+    }
+
+    #contact-address .input-box {
+        font-size: 2.5vw;
+        padding: 0.7rem;
+    }
+
+    #contact-address .input-box i {
+        margin-right: 1rem;
+    }
+
+    #contact-address .input-box input::placeholder, select {
+        font-size: 2vw;
+    }
+
+    #country-postal .form-field {
+        margin-right: 0;
+    }
+
+    .save-info span {
+        margin-left: 1rem;
+    }
+
+    #contact-address button {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    /*BODY*/
+    body {
+        padding: 4.5vw 17vw;
+    }
+
+    /*HEADER*/
+    #title {
+        margin-bottom: 3.19rem;
+    }
+
+    #title h1 {
+        font-size: 2.5vw;
+    }
+
+    /*MAIN CONTENT*/
+    #main-content {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 10rem;
+    }
+    
+    /*CONTACT ADDRESS*/
+    #contact-address {
+        flex-shrink: 2;
+        margin-bottom: 0rem;
+        margin-right: 3rem;
+    }
+
+    #contact-address h2 {
+        font-size: 1.25vw;
+        margin-bottom: 1rem;
+        margin-top: 0;
+    }
+
+    #contact-address .form-field {
+        margin-bottom: 1.5rem;
+    }
+
+    #contact-address .form-field label {
+        display: block;
+        font-size: 0.83vw;
+        margin-bottom: 0.5rem;
+    }
+
+    #contact-address .input-box {
+        display: flex;
+        font-size: 1.1vw;
+    }
+
+    .input-box input, select {
+        font-size: 2vw;
+    }
+
+    #country-postal .form-field {
+        width: 49%;
+    }
+
+    .save-info span {
+        font-size: 1vw;
+    }
+
+    #contact-address button {
+        border-radius: 0.75rem;
+        font-size: 1.5vw;
+    }
+
+    /*CHECKOUT*/
+    #checkout {
+        margin-bottom: 0;
+    }
+
+    .item-image img {
+        height: auto;
+    }
+
+    .item-desc h2 {
+        font-size: 1.1vw;
+        margin-bottom: 0.75rem;
+    }
+
+    .item-desc h3 {
+        font-size: 1.1vw;
+        margin-right: 2rem;
+    }
+
+    .item-desc h4 {
+        font-size: 0.83vw;
+    }
+
+    .item-quantity {
+        border-radius: 0.75rem;
+        width: 60%;
+    }
+
+    .item-quantity p {
+        font-size: 1vw;
+    }
+
+    .amount h2 {
+        font-size: 1.2vw;
+    }
 
     /*FOOTER*/
     footer {
